@@ -1,0 +1,293 @@
+
+/* container of header */
+.container{
+    width: 100%;
+    
+}
+.header{
+margin-left: 10%;
+padding-right: -15%;
+margin-right: -10%;
+}
+.header #submit{
+    margin-right:50Px ;
+    
+    
+}
+.navbar{
+    position: fixed;
+    top: 0px
+}
+
+nav{
+    /* margin:0px 50px 0px 50px; */
+    background-color: #030c17 !important;
+    width: 80%;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+nav img{
+    padding-right: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+/* container of main-section */
+.container1{
+    /* margin: 0px 50px 0px 50px ; */
+    background-color: #030c17;
+    width: 80%;
+    height: auto;
+    
+   
+
+    
+}
+.container1 #logoes{
+    width: 90%; /*this is a big problem and i should solve it*/
+    height: -20px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    align-items: center;
+    margin-top: -50px;
+
+}
+.container1 h1{
+    color: white;
+    font-size: calc(1.375rm, 1.5vw);
+    padding-left: 10%;
+    padding-top: 20%;
+    font-family: Arial,sans-serif;
+    padding-right: 0px;
+    
+}
+.container1 p{
+    color: white;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-top: 0%;
+    font-family: Arial,sans-serif;
+    padding-right: 0px;
+}
+ #button{
+    color: white;
+    font-size: 20px;
+    font-family: Arial,sans-serif;
+    background-color: #ff5033;
+    margin-left: 55px;
+    margin-top: -30px;
+    position: absolute !important;
+    
+}
+.container1 img{
+    padding:10% 0% 1% 0%;
+    width: 100%;
+       
+
+}
+/* about page style */
+.container3{
+    width: 80%;
+    background-color: #030c17;
+    font-size: 14px;
+    color: white;
+}
+.container3 #row1{
+    padding-top: 5%;
+    height: auto;
+    
+}
+ h2{
+    color: #fff;
+}
+#row1 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+ #btn{
+    background-color: #ff5033;
+    color: #ffff;
+}
+#row1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+ #col1{
+    border: 1px solid gray;
+    align-items: center;
+    width: 200px;
+    margin: 20px 0px 20px 5%;
+}
+ #col1 p{
+    text-align: center;
+}
+ #add{
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+#row2 img{
+    width:100%;
+    height: 250px;
+    padding-right: none; 
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+/* Product card container */
+.card {
+    flex-direction: row; /* it is so important when you want to make tow product card in one line */
+    display:flex; /* Use flexbox for horizontal alignment */
+    background-color: #030c17;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    align-items: center; /* Vertically center content */
+    margin: 20px;
+    
+    
+}
+
+
+
+/* Product image */
+.card img {
+    width: 100px; /* Adjust image size as needed */
+    height: 100px;
+   
+    border-radius: 10px;
+    margin-right: 20px; /* Add spacing between image and text */
+}
+
+/* Product details */
+.card-details {
+    flex: 1; /* Take remaining space */
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card .rating {
+    color: gold;
+    font-size: 1.2rem;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+/* Add to cart button */
+/* .card button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} */
+.container4{
+    background-color: #030c17;
+    width: 80%;
+    color: white;
+}
+
+.card button:hover {
+    background-color: #ff8533;
+}
+    
+.container4 #col2 img{
+    border: none;
+    width: 200px;
+    height: 250px;
+    margin-left: 20px;
+    padding: none;
+}
+.container4 #col2 p{
+    background-color: #ff5033;
+    color: #ffff; 
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+}
+.container5{
+    width: 80%;
+    background-color: #030c17;
+}
+h5{
+    text-align: center;
+    padding: 10px 0px 20px 0px ;
+    font-size: 30px;
+    font-size: 2rem;
+    color: white;
+}
+.row3 img{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 95%;
+    margin-left: 20px;
+}
+.row3 p{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+/* footer */
+.container2{
+    /* margin: 5px 50px 0px 50px ; */
+    background-color: #ff5033;
+    width: 80%;
+
+}
+.container2 ul li{
+text-decoration: none;
+list-style: none;
+color: white;
+}
+.container2 ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+
+.container2 h2,h4{
+   color: white; 
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 30px;
+   padding-top: 10px;
+   font-size: 2rem;
+}
+.container2 p{
+    color:white;
+    font-size: 14px;
+    justify-content: baseline;
+    margin-left: 25px;
+
+}
+h3{
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
